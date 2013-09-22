@@ -1,0 +1,20 @@
+##HEAD##
+title:Errore 404
+##/HEAD##
+
+##HEADER##
+HTTP/1.0 404 Not Found
+##/HEADER##
+
+##BODY##
+##TEMPLATE##header.html##/TEMPLATE##
+    <div class="container">
+        <h1>Errore 404</h1>
+        <p>
+            La realtà è apparenza, l'errore è sempre in agguato.<br/>
+            Questa pagina ora non esiste, ma un giorno forse, chissà.<br/>
+            Torna ad un porto sicuro: <a href="/">home page</a>
+        </p>
+    </div>
+##TEMPLATE##footer.html##/TEMPLATE##
+##/BODY##

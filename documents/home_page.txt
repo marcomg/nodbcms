@@ -1,0 +1,16 @@
+##HEADER##
+Location: ?q=it_home_page
+##/HEADER##
+
+##HEAD##
+title:Whelcome to VHC
+##/HEAD##
+
+##BODY##
+##TEMPLATE##header.html##/TEMPLATE##
+        <div class="container">
+            <h1>Whelcome to VHC: Versatile Html CMS</h1>
+            <p></p>
+        </div>
+##TEMPLATE##footer.html##/TEMPLATE##
+##/BODY##
