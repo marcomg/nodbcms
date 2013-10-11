@@ -6,5 +6,5 @@ if(empty($_GET['q']))
 else
     $q = explode('/', $_GET['q']);
 
-new documentParser($q, ROOT.'/documents', ROOT.'/templates', ROOT.'/errors');
+new documentParser($q, ROOT.'/documents', ROOT.'/templates', ROOT.'/documents/errors');
 ?>

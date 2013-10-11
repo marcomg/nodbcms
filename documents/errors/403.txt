@@ -1,0 +1,16 @@
+##HEAD##
+title:Errore 404
+##/HEAD##
+
+##BODY##
+##TEMPLATE##header.html##/TEMPLATE##
+    <div class="container">
+        <h1>Errore 403</h1>
+        <p>
+            La realtà è apparenza, l'errore è sempre in agguato.<br/>
+            A questa pagina non si può accedere, ma un giorno forse, chissà.<br/>
+            Torna ad un porto sicuro: <a href="/">home page</a>
+        </p>
+    </div>
+##TEMPLATE##footer.html##/TEMPLATE##
+##/BODY##
