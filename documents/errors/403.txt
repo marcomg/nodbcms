@@ -1,6 +1,10 @@
 ##HEAD##
-title:Errore 404
+title:Errore 403
 ##/HEAD##
+
+##HEADER##
+HTTP/1.1 403 Forbidden
+##/HEADER##
 
 ##BODY##
 ##TEMPLATE##header.html##/TEMPLATE##
