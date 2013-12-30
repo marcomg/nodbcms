@@ -1,4 +1,7 @@
 <?php
+/**
+ * Do everything nodbcms needs to load.
+ */
 require(ROOT . '/includes/documentParser.class.php');
 
 if(empty($_GET['q']))
