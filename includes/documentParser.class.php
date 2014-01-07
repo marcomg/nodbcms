@@ -10,10 +10,10 @@ class documentParser{
     
     /**
      * Load everything to print the page, if the page doesn't exist print an error page
-     * @param array $q
-     * @param string $documents
-     * @param string $templates
-     * @param string $errors
+     * @param array $q The page request
+     * @param string $documents Directory where are the html pages
+     * @param string $templates Directory of templates
+     * @param string $errors Direcotry of errors
      */
     function __construct($q, $documents, $templates, $errors){
         $this->documents = $documents;
@@ -34,7 +34,7 @@ class documentParser{
      * @param string $document
      */
     private function documentDisplay($document){
-        $head = $this->getHead($document);        
+        $head = $this->getHead($document);
         $body = $this->getBody($document);
         $header = $this->getHeader($document);
         
@@ -45,7 +45,7 @@ class documentParser{
         if(!empty($header))
             $this->sendHeader($header);
         
-        $this->display($html); 
+        $this->display($html);
     }
     
     /**
@@ -136,8 +136,8 @@ class documentParser{
      */
     private function templateCompyler($raw, $headData){
         foreach($headData as $dataI => $data){
-                $raw = str_replace('##' . $dataI . '##', $data, $raw);
-            }
+            $raw = str_replace('##' . $dataI . '##', $data, $raw);
+        }
         return($raw);
     }
     
