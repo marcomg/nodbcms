@@ -203,4 +203,3 @@ class documentParser{
         return($html);
     }
 }
-?>

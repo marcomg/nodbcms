@@ -10,4 +10,3 @@ else
     $q = explode('/', $_GET['q']);
 
 new documentParser($q, ROOT.'/documents', ROOT.'/templates', ROOT.'/documents/errors');
-?>
